@@ -1,0 +1,101 @@
+
+#tangkapanlayar
+
+def tanya2():
+    t= input("ketik y untuk lanjut menghitung, ketik n untuk kembali, ketik x untuk keluar: ")
+    if t =="y":
+        fungsi()
+       
+    elif t == "n":
+        tanya()
+        
+    elif t == "x":
+        exit()
+        print("exit")
+        
+       
+
+def fungsi():
+    
+    print()
+    print("Mencari Jumlah Mula Mula: ")
+    print("-------------------------")
+    x1= input ("Masukan periode pertumbuhan: ")
+    x = 0/float(x1)
+    print(x)
+    print()
+    
+    x2=x
+    fx = 10*3**x2
+    fx1= input("Masukan nilai fungsi yang pertama : ")
+    
+    fx2=input("Masukan nilai fungsi yang kedua")
+    
+    print("f(x) =",int(fx1)*int(fx2),"pangkat x")
+    print()
+    
+    
+    print("jumlah awal = ",fx)
+    print()
+     
+    tanya2()
+    
+    
+def fungsi2():
+    print()
+    print("Mencari jumlah setelah x tahun")
+    print("------------------------------")
+    
+    
+    x1= input ("Masukan periode pertumbuhan: ")
+    x2= input("Masukan tahun ke: ")
+    x = int(x2)/float(x1)
+    print(x)
+    
+    x3=x
+    fx = 10*3**x3
+    fx1= input("Masukan nilai fungsi yang pertama : ")
+    
+    fx2=input("Masukan nilai fungsi yang kedua")
+    
+    print("f(x) =",int(fx1),"kali",int(fx2),"pangkat x")
+    x3=int(fx)
+    
+    print("Jumlah setelah tahun ke-",x2,"=",fx)
+    print()
+    tanya2()
+    print()
+    
+    
+    
+def tanya():
+    print()
+    print()
+    
+    print("***APLIKASI EKSPONEN***")
+    print("-----------------------")
+    print("1. Mencari Jumlah Awal:  ")
+    print("2. Mencari Jumlah Setelah x: ")
+    print()
+    
+    t= input("Masukan pilihan: ")
+    if t == "1":
+        fungsi()
+    
+    elif t == "2":
+        fungsi2()
+        
+    else:
+       print("Input salah, ketik 1 atau 2")
+       tanya()
+       
+        
+tanya()
+print()
+#pytonpracticebynikm
+
+
+    
+    
+    
+    
