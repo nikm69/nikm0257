@@ -1,0 +1,118 @@
+def tanya():
+  
+    print("1.Perintah untuk membatalkan jalannya suatu program secara paksa dan mengembalikan ke system operasi disebut... ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "abort":
+        print("benar")
+        print()
+    else:
+        print("salah,  abort")
+        print()
+        
+        
+        
+    
+    print("2. Sebuah fasilitas dalam lingkungan jaringan yang mengatur usaha login seorang pengguna?.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "auto login":
+        print("benar")
+        print()
+    else:
+        print("salah,   auto login")
+        print()
+        
+    
+    print("3. Bagian dari arithmetic unit sebuah komputer untuk menyimpan hasil dari perhitungan sementara dinamakan?")
+    jawab =input("jawab:  ")
+    
+    if jawab == "accumulator":
+        print("benar")
+        print()
+    else:
+        print("salah,  accumulator")
+        print()
+        
+        
+     
+    print("4. Alat yang digunakan untuk mengubah sinyal analog menjadi sinyal digital ? ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "adc" and "analog digital converter":
+        print("benar")
+        print()
+    else:
+        print("salah, adc atau analog digital converter")
+        print()
+        
+        
+     
+    print("5.  tombol perintah yang terletak pada task bar yang akan muncull jika sebuah perintah harus di eksekusi  dinamakan active task ... ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "button":
+        print("benar")
+        print()
+    else:
+        print("salah,  button")
+        print()
+        
+        
+     
+    print("6. Cara men-set tombol, suara , tampilan dan lain sebagainya pada system operasi windows?.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "accesibility":
+        print("benar")
+        print()
+    else:
+        print("salah,    accesibility")
+        print()
+        
+    
+    print("7. Perangkat lunak aplikasi yang mengolah data gambar dan grafis untuk kebutuhan printing , desain grafis ?.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "adobe photoshop":
+        print("benar")
+        print()
+    else:
+        print("salah,  adobe photoshop")
+        print()
+        
+    
+    print("8. Penentuan kata kunci yang dilakukan oleh komputer secara otomatis sebagai indeks masukan sebuah dokumen ?")
+    jawab =input("jawab:  ")
+    
+    if jawab == "auto indexing":
+        print("benar")
+        print()
+    else:
+        print("salah, auto indexing ")
+        print()
+        
+    print("9. Automatic  Send And ... (ASR) Yaitu kemampuan peralatan untuk menerima dan mengirim data tanpa bantuan manusia .")
+    jawab =input("jawab:  ")
+    
+    if jawab == "recieve":
+        print("benar")
+        print()
+    else:
+        print("salah,  receive")
+        print()
+        
+        
+    print("10. Sebuah mesin yang secara otomatis akan menghambat grafik berdasarkan data yang dimasukan .")
+    jawab =input("jawab:  ")
+    
+    if jawab == "autoplotter":
+        print("benar")
+        print()
+    else:
+        print("salah,  autoplotter")
+        print()
+        
+        
+        
+tanya()
