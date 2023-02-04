@@ -1,0 +1,34 @@
+import random
+
+
+
+
+
+x ="y"
+
+
+
+while x == "y":
+	no = random.randint(1, 6)
+	
+	if no == 1:
+		print("o")
+		
+	if no == 2:
+		print("oo")
+		
+	if no == 3:
+		print("ooo")
+		
+	if no == 4:
+		print("oooo")
+		
+	if no == 5:
+		print("ooooo")
+		
+	if no == 6:
+		print("oooooo")
+		
+		
+	x = input ("press s to role again and n tobexit:")
+
