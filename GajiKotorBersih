@@ -1,0 +1,22 @@
+
+#penghitung gaji kotor & bersih
+def total():
+	gaji = input("Masukan Gaji Karyawan Rp. ")
+	peral = input("Masukan Biaya Peralatan Rp.  ")
+	pend=input("Masukan Total Pendapatan Rp.  ")
+	t_beban = int(gaji) + int(peral)
+	print("Total Beban Rp. ",t_beban)
+	pentor= int(pend)-int(t_beban)
+	print("---------------------------------")
+	print("Pendapatan Kotor : Rp. ", pentor)
+	print("---------------------------------")
+	beban_lain = input("Masukan jumlah beban lain seperti pph dan pajak karyawan: Rp.")
+	pen_bersih= int(pentor)-int(beban_lain)
+
+	print("--------------------------------------")
+	print ("Pendapatan bersih:  Rp.", pen_bersih)
+	print("---------------------------------------")
+	
+	
+total() #save..
+
