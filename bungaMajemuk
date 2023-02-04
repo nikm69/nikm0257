@@ -1,0 +1,24 @@
+#program menghitung laju pertumbuhan penduduk...
+#trypythonbynikm
+
+
+
+def majemuk():
+    ta= input('masukan jumlah penduduk awal: ')
+    pp=input("masukan persentase pertumbuhan penduduk: ")
+    tabAkhir= input("masukan jumlah penduduk  akhir: ")
+    
+    t=0
+    log3= 0.4771
+    
+    waktu1=int(tabAkhir)/int(ta)
+    
+    waktu2=1+float(pp)
+    
+    
+    print("log", waktu1, "/", "log", waktu2, "tahun")
+    
+    
+    
+majemuk()
+    
