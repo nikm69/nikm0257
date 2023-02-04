@@ -1,0 +1,187 @@
+
+print ("***QUIZ SINGKATAN***")
+
+score=0
+
+kata = input(" PpnBm dalam pajak,singkatan dari:")
+if kata == "pajak penjualan atas barang mewah":
+	print ("Benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+kata = input("JKP dalam pajak, singkatan dari:")
+if kata == "jasa kena pajak":
+	print ("Benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+kata = input("BKP dalam pajak singkatan dari:")
+if kata == "barang kena pajak":
+	print ("Benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+kata = input("PKP dalam perpajakan singkatan dari:")
+if kata == "pengusaha kena pajak":
+	print ("Benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+kata = input("NJKP dalam pajak singkatan dari:")
+if kata == "nilai jual kena pajak":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+kata = input("NJOPTKP dalam pajak singkatan dari:")
+if kata == "nilai jual objek pajak tidak kena pajak":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+#halamanfacebook
+
+
+kata = input("1. SIM singkatan dari:")
+if kata == "surat izin mengemudi":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+kata = input(" 2.STNK singkatan dari:")
+if kata == "surat tanda nomor kendaraan":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+
+kata = input("3. DPR singkatan dari:")
+if kata == "dewan perwakilan rakyat":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+
+kata = input(" 4.PEMILU singkatan dari:")
+if kata == "pemilihan umum":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+
+kata = input(" 5.PILPRES singkatan dari:")
+if kata == "pemilihan presiden":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+
+kata = input(" 6.KPK singkatan dari:")
+if kata == "komisi pemberantasan korupsi":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+
+kata = input(" 7.SK singkatan dari:")
+if kata == "surat keputusan ":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+	
+kata = input(" 8.PNS singkatan dari:")
+if kata == "pegawai negeri sipil":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+
+kata = input(" 9.PBB dalam pajak singkatan dari:")
+if kata == "pajak bumi dan bangunan":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+kata = input("APBN singkatan dari:")
+if kata == "anggaran pendapatan dan belanja negara":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+kata = input(" COVID singkatan dari:")
+if kata == "corona viruses desease":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+kata = input(" NJOP dalam pajak singkatan dari:")
+if kata == "nilai jual objek pajak":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+kata = input(" PPN dalam pajak singkatan dari:")
+if kata == "pajak pertambahan nilai":
+	print ("benar")
+	score += 1
+	
+else:
+	print ("salah")
+
+
+
+#tryprojectwithpython
+	
+	
+
+
+
+#contoh
+
+	
+kata = input(" singkatan dari:")
+if kata == " ":
+	print ("Benar")
+	score += 1
+	
+else:
+	print ("salah")
+	
+	
