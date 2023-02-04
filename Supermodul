@@ -1,0 +1,11 @@
+from super import *
+
+jedy = harimau(3, 4, 8)
+print (jedy.cakar)
+print (jedy.taring)
+jedy.berlari()
+
+toto = singa(2, 5, 7, 9)
+
+toto.berlari()
+print (toto.surai)
