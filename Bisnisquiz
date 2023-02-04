@@ -1,0 +1,112 @@
+
+
+
+def tanya():
+  
+    print("11. Identitas bisnis atau perusahaan yang mencakup nama, merek, simbol, desain, kata, atau kombinasi dari seluruh elemen disebut.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "brand":
+        print("benar")
+        print()
+    else:
+        print("salah,   brand")
+        
+        
+        
+    
+    print("12. Strategi perusahaan dalam mengenalkan brand kepada target pasar, sehingga lebih mudah diingat dan bisa menjadikannya berbeda dari pesaing dinamakan...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "branding":
+        print("benar")
+        print()
+    else:
+        print("salah,  branding")
+        
+    
+    print("13. Istilah dalam usaha yang merujuk pada kemampuan pelanggan untuk mengenali brand?.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "brand awareness":
+        print("benar")
+        print()
+    else:
+        print("salah,  brand awareness")
+        
+        
+     
+    print("14. Sekumpulan individu yang dipengaruhi oleh kebijakan, operasi, dan tujuan dari perusahaan.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "stakeholder":
+        print("benar")
+        print()
+    else:
+        print("salah,  stakeholder")
+        
+        
+     
+    print("15. Pendapatan usaha setelah dikurangi dengan modal disebut...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "profit" or "laba":
+        print("benar")
+        print()
+    else:
+        print("salah,   profit  atau laba")
+        
+        
+     
+    print("16. Jumlah pendapatan yang diperoleh setelah pengurangan Harga Pokok Penjualan (HPP) atau Cost of Goods Sold (COGS) disebut...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "gross":
+        print("benar")
+        print()
+    else:
+        print("salah,   gross")
+        
+    
+    print("27. Jenis profit atau pendapatan usaha yang telah dikurangi oleh biaya yang berhubungan tidak langsung dengan kegiatan produksi disebut ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "net":
+        print("benar")
+        print()
+    else:
+        print("salah,   net")
+        
+    
+    print("18.Istilah lain dari pendapatan yang diperoleh bisnis dalam jangka waktu tertentu adalah ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "revenue":
+        print("benar")
+        print()
+    else:
+        print("salah,  revenue")
+        
+        
+    
+    print("19. Istilah dalam bisnis yang artinya laporan keuangan adalah ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "cash flow":
+        print("benar")
+        print()
+    else:
+        print("salah")
+        
+        
+     
+    print("10. Transaksi bisnis antara bisnis satu dengan bisnis lainnya tanpa interaksi bersama pelanggan.dinamakan ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "B2B":
+        print("benar")
+        print()
+    else:
+        print("salah")
+        
+tanya()
