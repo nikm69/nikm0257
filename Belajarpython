@@ -1,0 +1,16 @@
+
+
+name = input('siapa namamu?\n')
+print('halo, %s!' %name)
+
+umur = input('berapa umurmu?\n')
+print('umurmu, %s!' %umur)
+
+agama = input('apa agamamu?\n')
+print('agamamu, %s!' %agama)
+
+tmptinggal = input('dimana kamu tinggal?\n')
+print('anda tinggal di, %s!' %tmptinggal)
+
+lakukan = input('apa yang sedang kamu lakukan?\n')
+print ('kamu sedang ,%s! ' %lakukan)
