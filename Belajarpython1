@@ -1,0 +1,13 @@
+intruksi = input ('tekan enter dan masukan biodata:')
+nama = input ('nama :')
+umur = int(input ('umur:'))
+pendidikan = input ('pendidikan terakhir:')
+pengalaman = int(input ('pengalaman kerja:'))
+
+if umur >= 20 and umur <= 35 :
+	if pendidikan == "s1" or pendidikan == "s2" or pendidikan == "s3":
+		if pengalaman >= 2:
+			print ('selamat anda diterima di perusahaan kami')
+else :
+	print ("maaf anda belum lolos,silahkan coba lagi tahun depan")
+	
