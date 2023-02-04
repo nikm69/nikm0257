@@ -1,0 +1,47 @@
+class barang:
+    def __init__(self, namabarang, hargaSatuan, bungkus):
+        self.namabarang=namabarang
+        self.hargaSatuan=hargaSatuan
+        self.bungkus= bungkus
+  
+
+        
+b1=barang("gudang garam", 2000, 30000)
+
+print("Nama barang: ",b1.namabarang)
+print("harga satuan : ",b1.hargaSatuan)
+print("harga per bungkus",b1.bungkus)
+
+
+        
+b2=barang("rokok in", 1500, 20000)
+print()
+
+print("Nama barang: ",b2.namabarang)
+print("harga satuan : ",b2.hargaSatuan)
+print("harga per bungkus",b1.bungkus)
+print()
+
+
+        
+b3=barang("roti", 1000, 0)
+
+print("Nama barang: ",b3.namabarang)
+print("harga satuan : ",b3.hargaSatuan)
+print("harga per bungkus",b3.bungkus)
+print()
+
+
+        
+b4=barang("buku sidu", 6000, 0)
+
+print("Nama barang: ",b4.namabarang)
+print("harga satuan : ",b4.hargaSatuan)
+print("harga per bungkus",b4.bungkus)
+
+
+
+
+
+
+
