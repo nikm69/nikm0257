@@ -1,0 +1,61 @@
+
+teks = input("tuliskan teks ").lower()
+huruf_vokal= {
+    "b": 0,
+    "c": 0,
+    "d": 0,
+    "f": 0,
+    "g": 0,
+    "h": 0,
+    "j": 0,
+    "k" : 0,
+    "l" : 0,
+    "m": 0,
+    "n" : 0,
+    "p" : 0,
+    "q" : 0,
+    "r" : 0,
+    "s" : 0,
+    "t" : 0,
+    "v" : 0,
+    "w" : 0,
+    "x" : 0,
+    "y" : 0,
+    "z" : 0
+    
+}
+total_huruf_vokal = 0
+for karakter in teks:
+    	if karakter in ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v","w","x", "y", "z"]:
+    		huruf_vokal [karakter] += 1
+    		total_huruf_vokal += 1
+    		
+print (f"total_karakter : {len(teks)}")
+print(f"total_huruf_vokal : {total_huruf_vokal}")
+
+print(f"""\
+   b -> {huruf_vokal["b"]}\
+   c  -> {huruf_vokal["c"]}
+   d -> {huruf_vokal["d"]}\
+   f -> {huruf_vokal["f"]}
+   g -> {huruf_vokal["g"]}\
+   h  -> {huruf_vokal["h"]}
+   j  -> {huruf_vokal["j"]}\
+   k -> {huruf_vokal["k"]}
+   l -> {huruf_vokal["l"]}\
+   m -> {huruf_vokal["m"]}
+   n  -> {huruf_vokal["n"]}\
+   p-> {huruf_vokal["p"]}
+   q-> {huruf_vokal["q"]}\
+   r-> {huruf_vokal["r"]}
+   s-> {huruf_vokal["s"]}\
+   t  -> {huruf_vokal["t"]}
+   v -> {huruf_vokal["v"]}\
+   w -> {huruf_vokal["w"]}
+   y -> {huruf_vokal["y"]}\
+   z -> {huruf_vokal["z"]}
+   
+   
+   """)
+    		
+    	
