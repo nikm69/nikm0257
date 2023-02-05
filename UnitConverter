@@ -1,0 +1,41 @@
+
+def converter():
+	
+		
+		print ("*** WELCOME TO FREE UNIT CONVERTER ***")
+		print ("== PYTHON 2022 ==".center(33))
+	
+		print ("KONVERSI")
+		unit_1 = input("dari:")
+		unit_2 = input("ke:")
+		
+		while True :
+		
+			if unit_1 == "m" and unit_2 == "cm":
+				print ("METER > CENTIMETER")
+				angka = input ("masukkan angka:")
+				if angka.isnumeric():
+					cm = int(angka) * 100
+					print (angka,"m =", cm, "cm")
+				elif angka in ("b", "back"):
+					converter()
+				elif angka in ("quit", "exit"):
+				    break
+				    
+			if unit_1 == "cm" and unit_2 == "m":
+				print ("CENTIMETER > METER")
+				angka = input ("masukkan angka:")
+				if angka.isnumeric():
+					m = int(angka) / 100
+					print (angka,"cm =", m, "m")
+				elif angka in ("b", "back"):
+					converter()
+				elif angka in ("quit", "exit"):
+				    break
+				    
+			 
+	
+			
+			
+converter()
+
