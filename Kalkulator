@@ -1,0 +1,11 @@
+
+#github
+data = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+mean = sum(data) / len(data)
+
+squared_diff = [(x - mean)**2 for x in data]
+
+stdev = (sum(squared_diff) / len(data))**0.5
+
+print(stdev)
