@@ -1,0 +1,55 @@
+#opensource.py
+#github
+
+harga_baju={
+    "baju1" : 100000,
+    "baju2" : 120000,
+    "baju3" : 150000,
+    "baju4" : 180000
+    
+}
+
+stok_baju ={
+     "baju1" : 10,
+     "baju2" : 40,
+     "baju3" : 50,
+     "baju4" : 70
+     
+}
+
+triansaksi= [ ]
+
+def tambah_transaksi(nama_baju, jumlah):
+	if nama_baju in harga_baju:
+		if nama_baju in stok_baju:
+			if stok_baju[nama_baju] >= jumlah:
+				total_harga = harga_baju[nama_baju] * jumlah
+				
+				transaksi.append ({"nama_baju" : nama_baju, "jumlah" : jumlah, "total_harga" : total_harga})
+				
+				stok_baju[nama_baju] -= jumlah
+				print(f"transaksi berhasil ditambahkan.Total harga : {total_harga}")
+				
+			else:
+				 
+				print("stok baju tdk mencukupi")
+				
+		else:
+				print("baju tidak dalam stok")
+				
+	else :
+				print("baju tdk ada dlm daftar harga")
+				
+				
+def tampilkan_transaksi():
+				print("DAFTAR  TRANSAKSI")
+				for t in transaksi:
+					print(f"{t['nama_baju']} * {t['jumlah']} = {t['total_harga']}")
+				
+				
+tambah_transaksi("baju1", 2)			
+
+tampilkan_transaksi()
+		 
+				
+				
