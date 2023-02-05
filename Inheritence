@@ -1,0 +1,15 @@
+class a:
+	def __init__(self, warna, harga):
+		self.warna = warna
+		self.harga = harga
+	
+	
+class b(a):
+	nama = "kamu"
+
+x = b ('merah', '17000000')
+
+print(x.harga)
+print(x.warna)
+print(x.nama)
+	
