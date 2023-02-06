@@ -1,0 +1,55 @@
+
+#tangkap
+
+from keras.models import sequential
+from keras.layers import Dense, Activation
+from keras.optimizer import SGD
+
+model=sequential()
+
+
+model.add(Dense(output_dim=64, input_dim=100))
+
+model.add(activation("tanh"))
+
+model.add(Dense(output_dim=100))
+
+model.add(Activation("softmax"))
+
+model.compile(loss= "categorical_crossentropy", optimizer=SGD(lr=0.01, momentum=0.9, nesterov= True))
+
+model.fit(x_train, y_train, nb_epoch=5, batch_size=32)
+
+model.summary()
+
+model.get_config()
+
+model.get_weights()
+
+layer.get_weights()
+
+model.save(filepath)
+
+json_string = model.to_json()
+
+model.save_weights(weights.h5)
+
+keras.model.load_model(filepath)
+
+model=model_from_json(json_string)
+
+model.load_weights(weights.h5)
+
+frozen_layer= Dense(32, trainable=False)
+
+from keras.applications.vgg16 impoprt VGG16
+from keras.applications.vgg19 impoprt VGG19
+from keras.applications.resnet50 impoprt ResNet50
+from keras.applications.inception_v3 impoprt InceptionV3
+
+model=VGG16(weights='imagenet', include_top=True)
+
+print("g.a.y.a.l.a.y.b bnm")
+
+
+
