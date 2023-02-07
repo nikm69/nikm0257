@@ -1,0 +1,118 @@
+def tanya():
+  
+    print("1. Penurunan nilai uang yang dilakukan dengan sengaja terhadap uang luar negeri atau terhadap emas (misalnya untuk memperbaiki perekonomian) disebut.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "devaluasi":
+        print("benar")
+        print()
+    else:
+        print("salah,  devaluasi")
+        print()
+        
+        
+        
+    
+    print("2. Jenis devaluasi yang memiliki dampak berupa 5 persen per tahun. Jenis devaluasi ini bisa dibilang tidak memiliki pengaruh terhadap kondisi ekonomi suatu negara dinamakan devaluasi... ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "halus":
+        print("benar")
+        print()
+    else:
+        print("salah,   halus")
+        print()
+        
+    
+    print("3. Jenis devaluasi yang memiliki dampak terhadap depresiasi kurang lebih sekitar 5-15 persen per tahun adalah devaluasi...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "sedang":
+        print("benar")
+        print()
+    else:
+        print("salah,  sedang")
+        print()
+        
+        
+     
+    print("4.  Jenis devaluasi yang berdampak pada depresiasi sekitar 15-25 persen per tahunnya. Terjadinya devaluasi ini, bisa mempengaruhi ekspor adalah devaluasi ... ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "cepat":
+        print("benar")
+        print()
+    else:
+        print("salah,  cepat")
+        print()
+        
+        
+     
+    print("5. jenis devaluasi yang berdampak terhadap depresiasi lebih dari 25 persen. Jika devaluasi ini terjadi, maka bisa menjadi pertanda bahwa kondisi ekonomi suatu negara sedang krisis adalah devaluasi ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "terus menerus":
+        print("benar")
+        print()
+    else:
+        print("salah,  terus menerus")
+        print()
+        
+        
+     
+    print("6.  Balance of ... (BOP) ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "payment":
+        print("benar")
+        print()
+    else:
+        print("salah,    payment")
+        print()
+        
+    
+    print("7.  Balance of ... (BOT)")
+    jawab =input("jawab:  ")
+    
+    if jawab == "trade":
+        print("benar")
+        print()
+    else:
+        print("salah,  trade")
+        print()
+        
+    
+    print("8. Adanya peningkatan pengangguran, Kualitas produk lokal yang lebih baik, Defisit perdagangan internasional,  impor yang tinggi, Biaya utang terlalu tinggi adalah ...devaluasi")
+    jawab =input("jawab:  ")
+    
+    if jawab == "penyebab":
+        print("benar")
+        print()
+    else:
+        print("salah, penyebab ")
+        print()
+        
+    print("9.  prinsip dasar ekonomi yang menyatakan bahwa pada harga yang lebih tinggi, konsumen akan meminta jumlah barang yang lebih rendah adalah hukum ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "permintaan":
+        print("benar")
+        print()
+    else:
+        print("salah, permintaan ")
+        print()
+        
+        
+    print("10. Secara alami, orang memprioritaskan keinginan dan kebutuhan yang ... mendesak daripada yang kurang mendesak dalam perilaku ekonomi mereka.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "lebih":
+        print("benar")
+        print()
+    else:
+        print("salah,   lebih")
+        print()
+        
+        
+        
+tanya()
