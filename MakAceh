@@ -1,0 +1,53 @@
+mak_aceh=[
+"ayam tangkap",
+"bada reuteuk",
+"boh puniaram",
+"dalca",
+"doidoi",
+"gulai",
+"gule rampoe",
+"kanji rumbi",
+"karah",
+"kuwah manok",
+"kuwah plieku",
+"kuwah sie kameng",
+"kuwah tuhe",
+"martabak aceh",
+"masak puteh",
+"masak keu'eueng",
+"ruti cane",
+"ruti jala",
+"sambai asam udeueng",
+"sambai on peugaga",
+"sate matang",
+"sie reuboh",
+"timphan",
+"wajeb",
+"lompong sagu",
+"keumamah",
+"meuseukat",
+"kuwah eungkot rambeue",
+"mamemek",
+"masam jing",
+"mie aceh",
+"depik dedah",
+"kuwah eungkot yee",
+"nasi gurih",
+"pepes",
+"pengat",
+"bubur pedas",
+"peukasam drien",
+"peunajoh tho",
+"kuwah itek"
+
+
+]
+
+]
+
+
+
+for i, item in enumerate(mak_aceh):
+    print(f"{i+1}. {item}")
+print()    
+
