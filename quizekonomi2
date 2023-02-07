@@ -1,0 +1,120 @@
+
+
+def tanya():
+  
+    print("1. Pendapatan konsumen, Perkiraan harga di masa yang akan datang,Ketersediaan serta harga barang sejenis, barang pengganti dan barang pelengkap, Banyaknya/intensitas kebutuhan konsumen, Banyaknya waktu, Permintaan peak of peak adalah ... yang mempengaruhi hukum permintaan")
+    jawab =input("jawab:  ")
+    
+    if jawab == "faktor":
+        print("benar")
+        print()
+    else:
+        print("salah,  faktor")
+        print()
+        
+        
+        
+    
+    print("2. Dalam hukum permintaan, terdapat ... permintaan atau price elasticity of demand (PED). ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "elastisitas":
+        print("benar")
+        print()
+    else:
+        print("salah,   elastisitas")
+        print()
+        
+    
+    print("3. Seluruh tata cara yang digunakan dalam mengkoordinasikan perilaku masyarakat mencakup produsen, konsumen, pemerintah, bank, dan lainnya dalam menjalankan kegiatan ekonomi baik dalam hal produksi, distribusi, konsumsi, maupun investasi yang secara terintegrasi membentuk satu kesatuan utuh teratur dan dinamis sehingga mampu menghindari kekacauan di bidang ekonomi merupakan .... ekonomi")
+    jawab =input("jawab:  ")
+    
+    if jawab == "sistem":
+        print("benar")
+        print()
+    else:
+        print("salah,  sistem")
+        print()
+        
+        
+     
+    print("4. Masih menggunakan alat-alat produksi yang sederhana, Sangat bergantung terhadap sumber daya alam, Transaksi jual beli identik dengan perilaku masyarakat sekitar, Sering diterapkan di masyarakat pedesaan adalah ciri sistem ekonomi ... ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "tradisional":
+        print("benar")
+        print()
+    else:
+        print("salah, tradisional")
+        print()
+        
+        
+     
+    print("5. Peraturan ekonomi diatur oleh pemerintah, Hampir semua jenis pekerjaan di bawah aturan pemerintah, Harga dari suatu produk juga ditentukan oleh pemerintah adalah ciri sistem ekonomi ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "komando":
+        print("benar")
+        print()
+    else:
+        print("salah,  komando")
+        print()
+        
+        
+     
+    print("6.  Sumber daya serta barang yang sangat berpotensi di bawah aturan dan diawasi pemerintah, Pihak swasta dapat peran dalam bidang ekonomi yang seimbang, Pemerintah membuat aturan agar menciptakan persaingan ekonomi yang sehat adalah ciri sistem ekonomi ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "campuran":
+        print("benar")
+        print()
+    else:
+        print("salah,   campuran ")
+        print()
+        
+    
+    print("7.  Setiap alat produksi di bawah pengawasan pemerintah, Produksi, konsum, hingga distribusi sudah diatur oleh pemerintah pusat, Hak milik usaha perseorangan terbatas adalah ciri sistem ekonomi ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "sosialis":
+        print("benar")
+        print()
+    else:
+        print("salah,  sosialis")
+        print()
+        
+    
+    print("8. Setiap transaksi ekonomi dilakukan oleh masyarakat atau pihak swasta, Modal usaha merupakan peran yang cukup penting, Tidak ada intervensi dari pemerintah, Usaha yang dibangun dikhususkan untuk mendapatkan laba, Setiap individu diberikan kebebasan dalam membeli barang apa saja adalah ciri sistem ekonomi ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "pasar":
+        print("benar")
+        print()
+    else:
+        print("salah,  pasar")
+        print()
+        
+    print("9. Pihak pemerintak memiliki keterbatasan dalam mencampuri transaksi ekonomi, Harga suatu produk lebih sering ditentukan oleh pasar bebas, Mengutamakan prinsip imbal hasil, Pelaku usaha bebas menentukan usahanya adalah ciri sistem ekonomi ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "liberal":
+        print("benar")
+        print()
+    else:
+        print("salah,  liberal")
+        print()
+        
+        
+    print("10. Tidak adanya penguasaan suatu sumber daya alam oleh pihak-pihak tertentu, Setiap sumber daya alam yang sangat dibutuhkan oleh masyarakat ada di bawah pengawasan pemerintah, Pertumbuhan ekonomi selalu mengutamakan keadilan, sehingga menciptakan persaingan yang sehat, Konsumen mendapatkan hak perlindungan adalah ciri sistem ekonomi ...")
+    jawab =input("jawab:  ")
+    
+    if jawab == "kerakyatan":
+        print("benar")
+        print()
+    else:
+        print("salah,  kerakyatan")
+        print()
+        
+        
+        
+tanya()
