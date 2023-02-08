@@ -1,0 +1,75 @@
+#tangkpn
+#git
+print("TANAMAN HIAS :\n")
+
+th= [
+"aglaonema",
+"asparagus",
+"brokoli",
+"puring",
+"caladium",
+"calathea",
+"coleus",
+"dieffpenbhacia",
+"dolar",
+"dolar merambat",
+"zebrina",
+"gelombang cinta",
+"janda bolong",
+"tanaman kupu kupu",
+"keladi tengkorak",
+"keladi red star",
+"kuping gajah",
+"lidah mertua",
+"lili paris",
+"tanaman lipstik",
+"miana",
+"english ivy",
+"keladi hitam",
+"monstera",
+"lucky bamboo",
+"philodendron",
+"pisang pisangan",
+"pucuk merah",
+"sirih",
+"sirih gading",
+"spider plant",
+"sri rejeki",
+"suji",
+"suplir",
+"talas",
+"jade plant",
+"tanduk rusa",
+"wali songo",
+"samia furfuracea",
+"samioculcas",
+"lidah buaya",
+"tanaman daun zebra",
+"kadaka",
+"draceana",
+"palem",
+"schefflera",
+"sente kipas",
+"paku hati",
+"alocasia",
+"kastuba",
+"apu apu",
+"begonia",
+"siklok",
+"pisang kipas",
+"anthurium",
+"beringin",
+"cocor bebek",
+"pakis haji",
+"hanjuang",
+"ketapang"
+
+
+]
+
+
+
+th=[string.title() for string in th]
+for i, item in enumerate(th):
+    print(f"{i+1}. {item}")
+    print()
