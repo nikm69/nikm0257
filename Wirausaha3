@@ -1,0 +1,119 @@
+def tanya():
+  #tangkapan layar
+  
+    print("21.Proses meneliti, mempromosikan, menjual, dan mendistribusikan produk atau layanan.Mencakup berbagai praktik, termasuk periklanan , publisitas, promosi, penetapan harga, dan pengemasan barang atau jasa secara keseluruhan.disebut... ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "pemasaran":
+        print("benar")
+        print()
+    else:
+        print("salah,  pemasaran")
+        print()
+        
+        
+        
+    
+    print("22. Penggabungan ...adalah istilah penggabungan dua perusahaan yang sebelumnya terpisah menjadi satu entitas perusahaan saja, dimana perusahaan tersebut mengambil dengan cara menyatukan saham berupa aset dan non aset perusahaan yang di gabung.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "merger":
+        print("benar")
+        print()
+    else:
+        print("salah,   merger")
+        print()
+        
+    
+    print("23. Pemasaran Bertingkat (....)Strategi pemasaran di mana tenaga penjual tidak hanya mendapatkan kompensasi atas penjualan yang mereka hasilkan, tetapi juga atas hasil penjualan sales lain yang mereka rekrut.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "mlm":
+        print("benar")
+        print()
+    else:
+        print("salah,  mlm")
+        print()
+        
+        
+     
+    print("24. Sebuah usaha yang membutuhkan ... distributor untuk membangun bisnis tersebut.  ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "jaringan":
+        print("benar")
+        print()
+    else:
+        print("salah, jaringan")
+        print()
+        
+        
+     
+    print("25. ... dalam usaha adalah proses membangun hubungan yang saling menguntungkan dengan pelaku bisnis lain, klien, atau pelanggan potensial. Hal ini juga melibatkan kontak dengan orang-orang yang memberikan informasi atau pelatihan.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "networking":
+        print("benar")
+        print()
+    else:
+        print("salah,   networking")
+        print()
+        
+        
+     
+    print("26.  Alih Daya (...) adalah penyerahan sebagian pekerjaan kepada perusahaan lain, baik berupa pemborongan pekerjaan ataupun penyediaan tenaga kerja.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "outsourcing":
+        print("benar")
+        print()
+    else:
+        print("salah,    outsourcing")
+        print()
+        
+    
+    print("27. Kemitraan (.........) adalah kerja sama di antara dua pihak atau lebih dalam mengelola dan mengoperasikan bisnis bersama demi mencapai keuntungan. ")
+    jawab =input("jawab:  ")
+    
+    if jawab == "partnership":
+        print("benar")
+        print()
+    else:
+        print("salah,   partnership")
+        print()
+        
+    
+    print("28. Hak milik yang diberikan kepada penemu untuk mengecualikan orang lain dari membuat, menggunakan, menawarkan untuk dijual, atau menjual penemuan untuk waktu yang terbatas dalam pertukaran untuk pengungkapan publik penemuan ketika paten diberikan dinamakan.....")
+    jawab =input("jawab:  ")
+    
+    if jawab == "paten":
+        print("benar")
+        print()
+    else:
+        print("salah,  paten")
+        print()
+        
+    print("29. ... adalah Perumusan dengan menggunakan metode terperinci untuk mengelola usaha.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "planning":
+        print("benar")
+        print()
+    else:
+        print("salah,  planning")
+        print()
+        
+        
+    print("30. Hubungan Masyarakat (..... /PR)Proses komunikasi strategis yang digunakan oleh suatu pihak, baik individu, perusahaan, atau organisasi, untuk membangun hubungan yang saling menguntungkan dengan masyarakat dengan menyusun rencana komunikasi khusus dengan berbagai media dalam upaya membangun dan mempertahanan reputasi, citra, komunikasi, serta hubungan yang baik dan bermanfaat antara organisasi dengan publik.")
+    jawab =input("jawab:  ")
+    
+    if jawab == "humas":
+        print("benar")
+        print()
+    else:
+        print("salah,  humas")
+        print()
+        
+        
+        
+tanya()
