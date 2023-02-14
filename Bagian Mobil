@@ -1,0 +1,59 @@
+
+print("ISTILAH : \n")
+mb=[
+"chasis",
+"mesin",
+"rem",
+"transmisi",
+"jok",
+"bumper",
+"roda dan ban",
+"lampu",
+"sistem ac"
+]
+
+chas=(
+"CHASIS\n\nChassis adalah bagian dasar dari mobil yang menyediakan struktur dan dasar untuk seluruh mobil. Chassis merupakan bagian yang paling penting dari mobil dan berfungsi sebagai pondasi bagi seluruh komponen lain, seperti mesin, transmisi, suspensi, roda, dan bagian-bagian lain dari mobil.\n\nChassis dapat dibuat dari berbagai bahan seperti besi, baja, atau alumunium, dan dirancang untuk memenuhi spesifikasi yang dibutuhkan, seperti kestabilan, kekuatan, dan kenyamanan. Chassis juga memiliki sistem pengait yang membantu menahan bobot mobil dan meminimalkan getaran selama perjalanan.\n\nChassis juga merupakan bagian penting dalam memastikan keselamatan dan kenyamanan pengemudi dan penumpang. Chassis yang baik harus memiliki kekuatan yang memadai untuk melindungi pengemudi dan penumpang dari kerusakan serius pada saat kecelakaan.")
+
+mesin=("MESIN\n\nMesin adalah bagian dari mobil yang menghasilkan tenaga dan menggerakkan mobil. Mesin mengubah bahan bakar menjadi energi mekanik yang digunakan untuk memutar roda dan memindahkan mobil. Ada berbagai jenis mesin mobil, termasuk mesin bensin, mesin diesel, dan mesin listrik, setiap jenis mesin memiliki kelebihan dan kekurangan masing-masing.\n\nBagian-bagian dari mesin mobil meliputi blok mesin, silinder, katup, bahan bakar, sistem pendingin, dan sistem bahan bakar. Mesin dapat dibagi menjadi beberapa tipe berdasarkan bagaimana mesin mengubah bahan bakar menjadi energi mekanik, seperti mesin 4-tak, mesin 2-tak, dan mesin listrik.\n\nMesin memiliki peran yang sangat penting dalam mempengaruhi kinerja mobil, seperti akselerasi, kecepatan maksimal, dan efisiensi bahan bakar. Oleh karena itu, perawatan yang baik dan pemeliharaan reguler mesin sangat penting untuk memastikan kinerja yang optimal dan memperpanjang umur pakai mesin")
+
+aks=("AKSELERASI\n\nAkselerasi adalah ukuran kecepatan yang dicapai oleh mobil dalam jangka waktu tertentu. Dalam ilmu fisika, akselerasi didefinisikan sebagai perubahan kecepatan dalam satuan waktu. Dalam hal mobil, akselerasi mengacu pada kecepatan mobil yang meningkat saat mesin memproduksi lebih banyak tenaga.\n\nFaktor-faktor yang mempengaruhi akselerasi mobil meliputi kapasitas mesin, berat mobil, dan gaya gesek yang dihasilkan saat mobil bergerak. Mobil dengan mesin besar dan ringan biasanya memiliki akselerasi yang lebih baik dibandingkan dengan mobil dengan mesin kecil dan berat.\n\nAkselerasi sangat penting bagi kenyamanan dan keselamatan berkendara. Mobil yang memiliki akselerasi yang baik memungkinkan pengemudi untuk mencapai kecepatan yang diinginkan dengan lebih cepat dan lebih aman. Namun, akselerasi juga dapat mempengaruhi konsumsi bahan bakar dan emisi gas buang, oleh karena itu, mesin mobil harus dirancang dan dikalibrasi dengan baik untuk mencapai keseimbangan antara akselerasi dan efisiensi bahan bakar.")
+
+kal=("KALIBRASI:\n\nKalibrasi adalah proses mengatur dan menyesuaikan sistem dan bagian dari suatu mesin agar bekerja dengan cara yang sesuai dengan spesifikasi dan standar yang ditentukan. Dalam hal mobil, kalibrasi melibatkan proses penyesuaian sistem mesin, transmisi, suspensi, dan bagian-bagian lain untuk memastikan kinerja yang optimal dan sesuai dengan spesifikasi yang ditentukan.\n\nKalibrasi mesin mobil meliputi proses penyesuaian sistem bahan bakar, pendingin, dan sistem pengapian untuk memastikan mesin bekerja dengan efisiensi yang optimal dan memproduksi tenaga maksimal. Kalibrasi transmisi melibatkan proses penyesuaian sistem transmisi untuk memastikan transmisi bergeser dengan suara halus dan mempertahankan kecepatan yang stabil.\n\nKalibrasi suspensi melibatkan proses penyesuaian sistem suspensi agar dapat memastikan kenyamanan berkendara dan stabilitas mobil saat melalui jalan berlubang atau berkeriting. Bagian-bagian lain seperti sistem rem, sistem pengereman, dan sistem pengereman parkir juga harus dikalibrasi untuk memastikan kinerja yang optimal.\n\nKalibrasi yang baik memastikan bahwa bagian-bagian dari mobil bekerja dengan cara yang sesuai dengan spesifikasi dan standar yang ditentukan, memperpanjang umur pakai bagian-bagian tersebut, dan memastikan kinerja yang optimal dan keselamatan berkendara.")
+
+tran=("TRANSMISI\n\nTransmisi adalah bagian dari sistem transmisi pada mobil yang bertugas mengubah putaran mesin menjadi putaran roda. Transmisi memainkan peran penting dalam mengatur kecepatan mobil dan memastikan kenyamanan berkendara.\n\nAda beberapa jenis transmisi mobil, diantaranya adalah:\n\nTransmisi manual: Transmisi manual membutuhkan pengemudi untuk menggunakan kopling dan pergeseran untuk mengubah gigi. Transmisi manual memberikan kendali yang lebih baik pada pengemudi, namun membutuhkan lebih banyak usaha dibandingkan dengan transmisi otomatis.\n\nTransmisi otomatis: Transmisi otomatis bekerja secara otomatis dan memindahkan gigi tanpa perlu bantuan pengemudi. Transmisi otomatis memberikan kenyamanan dan kemudahan berkendara, namun biasanya memiliki efisiensi bahan bakar yang lebih rendah dibandingkan dengan transmisi manual.\n\nTransmisi CVT (Continuously Variable Transmission): Transmisi CVT memiliki roda gabungan yang bergerak secara linier dan memungkinkan transmisi untuk memindahkan gigi secara mulus tanpa pergeseran. Transmisi CVT memiliki efisiensi bahan bakar yang baik, namun kinerjanya biasanya tidak sebaik transmisi manual atau transmisi otomatis.\n\nTransmisi harus dikalibrasi secara berkala untuk memastikan kinerja yang optimal dan mencegah masalah yang mungkin terjadi pada bagian-bagian transmisi. Kinerja transmisi yang buruk dapat mempengaruhi kenyamanan berkendara, efisiensi bahan bakar, dan stabilitas mobil saat melalui jalan yang berlubang atau berkeriting.")
+
+
+
+
+mb =[string.title() for string in mb]
+for i, item in enumerate(mb):
+    print(f"{i+1}. {item}")
+    print()
+    
+i = input("masukan pilihan untuk melihat penjelasan..")
+print()
+if i == "1":
+    print(chas)
+elif i == "2":
+    print(mesin)
+    print()
+    print()
+elif i== "4":
+    print(tran)
+    print()
+    print()
+
+elif i== "10":
+    print(aks)
+    print()
+    print()
+
+elif i== "11":
+    print(kal)
+    print()
+    print()
+
+
+    
+
